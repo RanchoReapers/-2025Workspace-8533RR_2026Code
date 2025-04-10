@@ -15,12 +15,12 @@ What Needs to be Done?
 
 What's Happening?
 ----
-Updating/Configuring Robot Radio
-Testing implementation of separate controllers for Driver/Operator
-Testing implementation of force controls for intake
 
 Controls
 ----
+## Driver
+![image](https://github.com/user-attachments/assets/c7b5b36a-91a4-4a2b-84b2-433caab2478b)
+
 
 logic for aim assist -- please enter edit mode to read the code below easier:
 ----
