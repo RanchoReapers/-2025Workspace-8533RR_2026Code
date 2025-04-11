@@ -11,7 +11,8 @@ What Needs to be Done?
 - For the 2 nested steps, first learn how to simulate a controller
     - Write code for autonomous mode using a controller simulation
     - Translate aim assist code from tank to swerve
-- Implement pathing to autonomous and aim assist using Choreo
+- Implement pathing to autonomous and aim assist (Limelight) using Choreo
+- Start work on elevator logic
 
 What's Happening?
 ----
