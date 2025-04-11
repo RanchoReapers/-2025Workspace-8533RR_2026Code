@@ -16,7 +16,7 @@ public final class Constants {
     }
 
     public final class IntakeConstants {
-        public static final double IntakeVoltage = 4;
+        public static final double IntakeVoltage = 3;
     }
 
     public final class ModuleConstants {
@@ -72,7 +72,7 @@ public final class Constants {
         // !SECTION
 
         // SECTION - Offset values for swerve CANCoders
-        public static final double kBackLeftDriveAbsoluteEncoderOffsetRad = 0.409668 - (-0.45725);
+        public static final double kBackLeftDriveAbsoluteEncoderOffsetRad = 0.409668 - (-0.45725); // move stick forward to get first number; subtract # when manually aligned
         public static final double kFrontRightDriveAbsoluteEncoderOffsetRad = -0.127686 - (-0.494500);
         public static final double kBackRightDriveAbsoluteEncoderOffsetRad = -0.375 - 0.165039;
         public static final double kFrontLeftDriveAbsoluteEncoderOffsetRad = -0.33000 - 0.236572;
@@ -116,7 +116,7 @@ public final class Constants {
         public static final int kDriverXAxis = 0;
         public static final int kDriverRotAxis = 4;
 
-        public static final double kDeadband = 0.05;
+        public static final double kDeadband = 0.12;
     }
 
 }
